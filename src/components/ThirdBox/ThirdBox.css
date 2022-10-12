@@ -1,0 +1,59 @@
+.ost{
+    width: 400px;
+    height: 511px;
+    background-color: white;
+    margin-left: 162px;
+}
+.sec{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5px;
+    
+}
+.frstBan{
+    
+    border: 2px solid #E5E4E2;
+    margin-top: 5px;
+    margin-left: 1.5px;
+    
+}
+.secndBan{
+    border: 2px solid #E5E4E2;
+    margin-top: 5px;
+}
+.ThirdBan{
+    border: 2px solid  #E5E4E2;
+    margin-top: 5px;
+
+}
+.FourthBan{
+    border: 2px solid rgb(183, 178, 178);
+    margin-top: 5px;
+}
+.main{
+    margin-left: 25px;
+    margin-top: 65px;
+}
+.todo{
+    height: 250px;
+}
+.par{
+    margin-top: 22px;
+    text-align: left;
+    margin-left: 8px;
+}
+.store{
+    justify-content: left;
+}
+.star{
+    
+    text-align: left;
+}
+.para{
+    text-align: left;
+    margin-left: 8px;
+}
+h2{
+    font-size: 22px;
+}
+

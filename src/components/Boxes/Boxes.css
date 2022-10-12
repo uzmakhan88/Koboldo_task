@@ -1,0 +1,10 @@
+.section{
+    width:261px;
+    height: 360px;
+    margin: 0 2px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    margin-left: 1px;
+}

@@ -23,7 +23,18 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.flex{
+  display: flex;
+  flex-direction: row;
+}
+.cla{
+  height: 56px;
+  width: 92px;
+}
+.box{
+  display: flex;
+  flex-direction: column;
+}
 .App-link {
   color: #61dafb;
 }

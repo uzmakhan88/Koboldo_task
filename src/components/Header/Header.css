@@ -1,0 +1,43 @@
+.header{
+    background-color: black;
+    max-width: 100vw;
+    height: 65px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+/* .list{
+    display: flex;
+    flex-direction: row;
+}
+.list-2{
+    display: flex;
+    flex-direction: row;
+}
+.search_box{
+    left: 575px;
+    height: 30px;
+    width: 800px;
+} */
+.search{
+    width: 400px;
+    height: 30px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+.filter{
+    background-color: grey;
+    height: 35px;
+    width: 56px;
+}
+.nav{
+    width: 1500px;
+}
+@media screen and (max-width:700px) {
+
+    nav{
+        width: 600px;
+    }
+    
+}

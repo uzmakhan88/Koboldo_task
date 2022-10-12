@@ -1,23 +1,36 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header/Header';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import TrendingBanner from './components/TrendingBanner/TrendingBanner';
+import ThirdBox from './components/ThirdBox/ThirdBox';
+import Boxes from './components/Boxes/Boxes';
+import Footer from './components/Footer/Footer';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" style={{backgroundColor:"#E5E4E2"}}>
+      
+     <Header />
+     <br />
+     <TrendingBanner/>
+     
+     <div className="flex">
+      <div className="su">
+      <ThirdBox/>
+      </div>
+      <div className="box">
+        <div className="cla">
+        <Boxes/>
+        </div>
+        <div className="cla_00">
+          <Footer/>
+        </div>
+      </div>
+
+     </div>
+     
     </div>
   );
 }
